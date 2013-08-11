@@ -1,0 +1,10 @@
+@mixin invert-font-color($heading-color: white, $paragraph-color: #f0eef1, $link-color: #d3eef1, $link-hover: #edf1e1){
+	h1, h2, h3, h4, h5, h6 {color: $heading-color;}
+	p, span, li {color: $paragraph-color;}
+	a {
+		color: $link-color;
+		&:hover {
+			color: $link-hover;
+		}
+	}
+}

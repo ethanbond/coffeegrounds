@@ -1,69 +1,24 @@
 @import "foundation";
 @import "normalize";
-@import "iconfont";
 @import "mixins";
 @import "variables";
 
 
-.underconstruction {
-	text-align: center;
-	font-weight: normal;
-}
-
-
-
-
-html, .footer {
-	background-color: #2F313C;
-}
-
-body {
-	background-color: #DDE1DB;
-}
-
-header {
+html {background-color: #F9FCF7;}
+body {background-color: #3D322E;}
+section {
 	@include grid-row;
-	text-align: center;
-	.ibubblio {
-		font-size: 5rem;
-		color: #B3BBAD;
+	padding: 2rem 0;
+	div {
+		@include grid-column(12);
+	}
+	h6 {
+		color: #fffcff;
+	}
+	h1 {
+		color: #ede8ea;
+		font-weight: normal;
+		margin-top: 0;
 	}
 }
 
-.hero {
-	@include grid-row;
-	text-align: center;
-	margin-bottom: 2rem;
-	h1{color: #3A3B4A; margin-bottom: 0;}
-	p{color: #929292; width: 50%; margin-left: 25%;}
-}
-
-.filebox {
-	@include grid-row;
-	background-color: #fdfdfd;
-	padding: 3rem;
-	ul {
-		list-style: none;
-	}
-	li {
-		@include grid-column(2);
-		height: 10rem;
-		border: 1px solid red;
-		position: relative;
-	}
-}
-
-footer {
-	@include grid-row;
-	ul {
-		@include nav($horizontal: true, $align: center, $link-color: #f4f4f4, $link-hover: #daddf4, $hover-duration: 250);
-		margin-bottom: 0;
-		margin-top: 2rem;
-	}
-	.copyright {
-		text-transform: uppercase;
-		text-align: center;
-		font-size: 50%;
-		h6 {color: #666C79;}
-	}
-}

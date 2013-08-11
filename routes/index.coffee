@@ -1,6 +1,6 @@
 module.exports =
-	newproject: (req, res)->
-		res.render "newproject",
+	index: (req, res)->
+		res.render "newproject",	#views/newproject.dust
 			metadata:
 				title: "Coffeegrounds"
 				description: "This is a brand new Coffeegrounds project."

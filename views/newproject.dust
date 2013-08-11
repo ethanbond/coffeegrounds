@@ -1,4 +1,19 @@
-{>"templates/layout"}
+{>"templates/layout"/}
+
+{<stylesheets}
+	<!-- Put your page-specific stylesheet links in here -->
+{/stylesheets}
+
 {<content}
-	<h1>Welcome to your new coffeegrounds project.</h1>
+	<!-- All your content should go in here -->
+	<section>
+		<div>
+			<h6>coffeegrounds</h6>
+			<h1>Cool, you made it. Let's get started.</h1>
+		</div>
+	</section>
 {/content}
+
+{<scripts}
+	<!-- And your page-specific scripts go here! -->
+{/scripts}
