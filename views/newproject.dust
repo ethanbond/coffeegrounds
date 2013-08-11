@@ -1,0 +1,4 @@
+{>"templates/layout"}
+{<content}
+	<h1>Welcome to your new coffeegrounds project.</h1>
+{/content}
