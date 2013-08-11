@@ -1,4 +1,4 @@
-node-shell
-==========
+coffeegrounds
+=============
 
-Quick starting point for my own node projects.
+A starting point for node.js web projects. Includes coffeescript, dust.js, SASS, and Zurb Foundation.
