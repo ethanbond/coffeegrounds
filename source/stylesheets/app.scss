@@ -4,19 +4,15 @@
 @import "variables";
 
 
-html {background-color: #F9FCF7;}
-body {background-color: #3D322E;}
+body {
+	padding-top: 2rem;
+}
 section {
 	@include grid-row;
-	padding: 2rem 0;
 	div {
 		@include grid-column(12);
 	}
-	h6 {
-		color: #fffcff;
-	}
 	h1 {
-		color: #ede8ea;
 		font-weight: normal;
 		margin-top: 0;
 	}

@@ -4340,11 +4340,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-html {
-  background-color: #f9fcf7; }
-
 body {
-  background-color: #3d322e; }
+  padding-top: 2rem; }
 
 section {
   width: 100%;
@@ -4353,8 +4350,7 @@ section {
   margin-top: 0;
   margin-bottom: 0;
   max-width: 62.5em;
-  *zoom: 1;
-  padding: 2rem 0; }
+  *zoom: 1; }
   section:before, section:after {
     content: " ";
     display: table; }
@@ -4366,9 +4362,6 @@ section {
     padding-right: 0.9375em;
     width: 100%;
     float: left; }
-  section h6 {
-    color: #fffcff; }
   section h1 {
-    color: #ede8ea;
     font-weight: normal;
     margin-top: 0; }
