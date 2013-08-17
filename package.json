@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "express": "~3.3.4",
+    "coffee-script": "~1.6.3",
     "colors": "~0.6.0-1",
     "dustjs-linkedin": "https://github.com/linkedin/dustjs/tarball/master",
     "consolidate": "~0.9.1",
